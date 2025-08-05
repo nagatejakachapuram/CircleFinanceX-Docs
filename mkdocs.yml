@@ -1,43 +1,73 @@
-site_name: Vale-Fi Documentation
-site_url: https://docs.valefinancex.com/
-site_description: Comprehensive documentation for Vale-Fi autonomous payment and treasury management platform.
+site_name: Circle Pay Dapp Documentation
+site_url: https://docs.circlepay.com/
+site_description: Comprehensive documentation for Circle Pay – an autonomous payment and treasury management platform with USDC-based real estate investments.
 
-# Theme configuration (highly recommended for a professional look)
+repo_url: https://github.com/your-org/circle-pay
+repo_name: Circle Pay on GitHub
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  language: en
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.expand
+    - navigation.top
     - search.highlight
     - search.suggest
     - toc.integrate
+    - content.code.copy
+    - content.tabs.link
   palette:
-    - scheme: default # Light mode
+    - scheme: default
       primary: blue
       accent: teal
       toggle:
-        icon: material/brightness-4 # Light mode icon
+        icon: material/brightness-4
         name: Switch to dark mode
-    - scheme: slate # Dark mode
+    - scheme: slate
       primary: blue
       accent: teal
       toggle:
-        icon: material/brightness-7 # Dark mode icon
+        icon: material/brightness-7
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Introduction: getting_started/introduction.md
-      - Navigation: getting_started/navigation.md
-  - Dashboard: dashboard.md
-  - Payments: payments.md
-  - Analytics: analytics.md
-  - Treasury:
-      - Overview: treasury/overview.md
-      - Agents: treasury/agents.md
-      - Strategies: treasury/strategies.md
-  - Agents:
-      - Templates: agents/templates.md
-      - Active Agents: agents/active_agents.md
-  - Settings: settings.md
+  - Real Estate Module:
+      - Overview: real_estate/overview.md
+      - Buying Shares: real_estate/buying_shares.md
+      - Rental Income: real_estate/rental_income.md
+      - Maintenance Fees: real_estate/maintenance_fees.md
+  - USDC Payments:
+      - On-Chain Integration: usdc/onchain.md
+      - Circle API & Off-Chain: usdc/offchain.md
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/circlepay
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/circle-pay
