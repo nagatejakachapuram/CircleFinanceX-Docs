@@ -1,0 +1,2700 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Comprehensive documentation for CircleX Finance – a USDC-native platform for tokenized real estate investing with CCTP V2 support and compliance-first architecture.">
+      
+      
+      
+        <link rel="canonical" href="https://docs.circlex.finance/investment_products/index_funds/">
+      
+      
+        <link rel="prev" href="../../real_estate/overview/">
+      
+      
+        <link rel="next" href="../treasuries/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Index Funds - CircleX Finance Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tokenized-index-funds" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CircleX Finance Documentation" class="md-header__button md-logo" aria-label="CircleX Finance Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CircleX Finance Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index Funds
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/nagatejakachapuram/CircleFinanceX-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CircleX Finance Docs on GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting_started/quick_start/" class="md-tabs__link">
+          
+  
+  
+  Getting Started
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../features/cctp_bridge/" class="md-tabs__link">
+          
+  
+  
+  Core Features
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../real_estate/overview/" class="md-tabs__link">
+          
+  
+  
+  Investment Products
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../portfolio/overview/" class="md-tabs__link">
+          
+  
+  
+  Portfolio Management
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../usdc/onchain/" class="md-tabs__link">
+          
+  
+  
+  Technical Integration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../compliance/erc3643.md" class="md-tabs__link">
+          
+  
+  
+  Compliance
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CircleX Finance Documentation" class="md-nav__button md-logo" aria-label="CircleX Finance Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CircleX Finance Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/nagatejakachapuram/CircleFinanceX-Docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CircleX Finance Docs on GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/quick_start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick Start
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/kyc_onchainid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    KYC & OnchainID
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting_started/wallet_connection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wallet Connection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Core Features
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Core Features
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/cctp_bridge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CCTP V2 Bridge
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/multi_chain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multi-Chain Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/compliance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compliance & Security
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Investment Products
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Investment Products
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../real_estate/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tokenized Real Estate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Index Funds
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index Funds
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-tokenized-index-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are Tokenized Index Funds?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-index-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Available Index Funds
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Available Index Funds">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tech-growth-index" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tech Growth Index
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clean-energy-future" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clean Energy Future
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-services-plus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Financial Services Plus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healthcare-innovation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Healthcare Innovation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-diversified" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global Diversified
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fund-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fund Categories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fund Categories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#by-risk-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      By Risk Level
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="By Risk Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#high-risk-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      High Risk Funds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-risk-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Medium Risk Funds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-risk-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      Low Risk Funds
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-sector" class="md-nav__link">
+    <span class="md-ellipsis">
+      By Sector
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="By Sector">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#technology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technology
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#energy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Energy
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healthcare" class="md-nav__link">
+    <span class="md-ellipsis">
+      Healthcare
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diversified" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diversified
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-index-funds-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Index Funds Work
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Index Funds Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fund-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fund Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fund Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tokenization-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tokenization Process
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#token-economics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Token Economics
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fund-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fund Management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fund Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#professional-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professional Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rebalancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rebalancing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#investment-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investment Process
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Investment Process">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#investment-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investment Steps
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Investment Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-browse-funds" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Browse Funds
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-select-fund" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Select Fund
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-invest" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Invest
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Monitor
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fund-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fund Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fund Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#performance-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Metrics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#returns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Returns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Risk Metrics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fees
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historical-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Historical Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Historical Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tech-growth-index_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tech Growth Index
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clean-energy-future_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clean Energy Future
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#financial-services-plus_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Financial Services Plus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healthcare-innovation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Healthcare Innovation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#global-diversified_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Global Diversified
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#risk-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Risk Management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risk Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#risk-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Risk Factors
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risk Factors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#market-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Market Risk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fund-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fund Risk
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technology-risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technology Risk
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk-mitigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Risk Mitigation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Risk Mitigation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diversification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diversification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#professional-management_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Professional Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fees-and-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fees and Costs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fees and Costs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fee-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fee Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fee Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#management-fees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Management Fees
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-fees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Fees
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trading-costs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trading Costs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-cost-of-ownership" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Cost of Ownership
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Total Cost of Ownership">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-10000-investment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example: $10,000 Investment
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tax-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tax Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tax-treatment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tax Treatment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tax Treatment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dividend-distributions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dividend Distributions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capital-gains" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capital Gains
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#international-investors" class="md-nav__link">
+    <span class="md-ellipsis">
+      International Investors
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secondary-markets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secondary Markets
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Secondary Markets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trading-fund-shares" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trading Fund Shares
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Trading Fund Shares">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trading-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trading Platforms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trading-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trading Features
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liquidity-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liquidity Considerations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Liquidity Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#liquidity-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liquidity Factors
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liquidity-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liquidity Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best Practices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#investment-strategy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investment Strategy
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Investment Strategy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diversification_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diversification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#due-diligence" class="md-nav__link">
+    <span class="md-ellipsis">
+      Due Diligence
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#portfolio-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Portfolio Management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Portfolio Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#asset-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Asset Allocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring" class="md-nav__link">
+    <span class="md-ellipsis">
+      Monitoring
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Troubleshooting
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Common Issues
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#investment-failed" class="md-nav__link">
+    <span class="md-ellipsis">
+      Investment Failed
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-concerns" class="md-nav__link">
+    <span class="md-ellipsis">
+      Performance Concerns
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liquidity-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Liquidity Issues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#support-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Steps
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../treasuries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    US Treasuries
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Portfolio Management
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Portfolio Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../portfolio/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portfolio Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../portfolio/performance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Performance Tracking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../portfolio/transactions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Transaction History
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Technical Integration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Technical Integration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../usdc/onchain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    USDC Integration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical/api_reference.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../technical/smart_contracts.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Smart Contracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Compliance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Compliance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/erc3643.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ERC-3643 Standard
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/kyc_requirements.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    KYC Requirements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../compliance/audit_reports.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Audit Reports
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="tokenized-index-funds">Tokenized Index Funds<a class="headerlink" href="#tokenized-index-funds" title="Permanent link">&para;</a></h1>
+<p>CircleX Finance offers <strong>professional-grade index funds</strong> tokenized for verified investors, providing diversified exposure to various sectors and asset classes.</p>
+<hr />
+<h2 id="what-are-tokenized-index-funds">What are Tokenized Index Funds?<a class="headerlink" href="#what-are-tokenized-index-funds" title="Permanent link">&para;</a></h2>
+<p>Tokenized index funds are <strong>traditional investment products</strong> brought to the blockchain, offering:</p>
+<ul>
+<li><strong>Diversified Portfolios</strong>: Exposure to multiple assets in a single token</li>
+<li><strong>Professional Management</strong>: Managed by experienced fund managers</li>
+<li><strong>Transparent Performance</strong>: On-chain performance tracking</li>
+<li><strong>Liquid Investment</strong>: Tradeable on secondary markets</li>
+<li><strong>USDC-Native</strong>: All investments and distributions in USDC</li>
+</ul>
+<hr />
+<h2 id="available-index-funds">Available Index Funds<a class="headerlink" href="#available-index-funds" title="Permanent link">&para;</a></h2>
+<h3 id="tech-growth-index">Tech Growth Index<a class="headerlink" href="#tech-growth-index" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Category</strong>: Technology</li>
+<li><strong>Risk Level</strong>: High Risk</li>
+<li><strong>APY</strong>: 12.4%</li>
+<li><strong>Management Fee</strong>: 0.75%</li>
+<li><strong>Token Price</strong>: $250</li>
+<li><strong>Launch Date</strong>: January 15, 2023</li>
+<li><strong>Focus</strong>: Growth-oriented technology companies</li>
+</ul>
+<h3 id="clean-energy-future">Clean Energy Future<a class="headerlink" href="#clean-energy-future" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Category</strong>: Energy</li>
+<li><strong>Risk Level</strong>: High Risk</li>
+<li><strong>APY</strong>: 11.2%</li>
+<li><strong>Management Fee</strong>: 0.85%</li>
+<li><strong>Token Price</strong>: $220</li>
+<li><strong>Launch Date</strong>: February 10, 2023</li>
+<li><strong>Focus</strong>: Renewable energy and clean technology</li>
+</ul>
+<h3 id="financial-services-plus">Financial Services Plus<a class="headerlink" href="#financial-services-plus" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Category</strong>: Finance</li>
+<li><strong>Risk Level</strong>: Medium Risk</li>
+<li><strong>APY</strong>: 10.1%</li>
+<li><strong>Management Fee</strong>: 0.70%</li>
+<li><strong>Token Price</strong>: $195</li>
+<li><strong>Launch Date</strong>: April 5, 2023</li>
+<li><strong>Focus</strong>: Banking, insurance, and financial services</li>
+</ul>
+<h3 id="healthcare-innovation">Healthcare Innovation<a class="headerlink" href="#healthcare-innovation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Category</strong>: Healthcare</li>
+<li><strong>Risk Level</strong>: Medium Risk</li>
+<li><strong>APY</strong>: 9.8%</li>
+<li><strong>Management Fee</strong>: 0.65%</li>
+<li><strong>Token Price</strong>: $180</li>
+<li><strong>Launch Date</strong>: March 20, 2023</li>
+<li><strong>Focus</strong>: Biotechnology, pharmaceuticals, and healthcare technology</li>
+</ul>
+<h3 id="global-diversified">Global Diversified<a class="headerlink" href="#global-diversified" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Category</strong>: Diversified</li>
+<li><strong>Risk Level</strong>: Low Risk</li>
+<li><strong>APY</strong>: 8.5%</li>
+<li><strong>Management Fee</strong>: 0.45%</li>
+<li><strong>Token Price</strong>: $150</li>
+<li><strong>Launch Date</strong>: December 1, 2022</li>
+<li><strong>Focus</strong>: Global diversification across sectors and regions</li>
+</ul>
+<hr />
+<h2 id="fund-categories">Fund Categories<a class="headerlink" href="#fund-categories" title="Permanent link">&para;</a></h2>
+<h3 id="by-risk-level">By Risk Level<a class="headerlink" href="#by-risk-level" title="Permanent link">&para;</a></h3>
+<h4 id="high-risk-funds">High Risk Funds<a class="headerlink" href="#high-risk-funds" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Tech Growth Index</strong>: 12.4% APY</li>
+<li><strong>Clean Energy Future</strong>: 11.2% APY</li>
+<li><strong>Characteristics</strong>: Higher volatility, growth potential</li>
+<li><strong>Suitable For</strong>: Risk-tolerant investors</li>
+</ul>
+<h4 id="medium-risk-funds">Medium Risk Funds<a class="headerlink" href="#medium-risk-funds" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Financial Services Plus</strong>: 10.1% APY</li>
+<li><strong>Healthcare Innovation</strong>: 9.8% APY</li>
+<li><strong>Characteristics</strong>: Balanced risk-return profile</li>
+<li><strong>Suitable For</strong>: Moderate risk tolerance</li>
+</ul>
+<h4 id="low-risk-funds">Low Risk Funds<a class="headerlink" href="#low-risk-funds" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Global Diversified</strong>: 8.5% APY</li>
+<li><strong>Characteristics</strong>: Lower volatility, stable returns</li>
+<li><strong>Suitable For</strong>: Conservative investors</li>
+</ul>
+<h3 id="by-sector">By Sector<a class="headerlink" href="#by-sector" title="Permanent link">&para;</a></h3>
+<h4 id="technology">Technology<a class="headerlink" href="#technology" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Tech Growth Index</strong>: Growth-focused tech companies</li>
+<li><strong>Focus Areas</strong>: Software, hardware, cloud computing</li>
+<li><strong>Market Cap</strong>: Large and mid-cap companies</li>
+<li><strong>Geographic</strong>: Global exposure</li>
+</ul>
+<h4 id="energy">Energy<a class="headerlink" href="#energy" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Clean Energy Future</strong>: Renewable energy companies</li>
+<li><strong>Focus Areas</strong>: Solar, wind, battery technology</li>
+<li><strong>Market Cap</strong>: Mixed market cap exposure</li>
+<li><strong>Geographic</strong>: Global renewable energy markets</li>
+</ul>
+<h4 id="finance">Finance<a class="headerlink" href="#finance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Financial Services Plus</strong>: Banking and financial services</li>
+<li><strong>Focus Areas</strong>: Banks, insurance, fintech</li>
+<li><strong>Market Cap</strong>: Large-cap financial institutions</li>
+<li><strong>Geographic</strong>: Global financial markets</li>
+</ul>
+<h4 id="healthcare">Healthcare<a class="headerlink" href="#healthcare" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Healthcare Innovation</strong>: Healthcare and biotech</li>
+<li><strong>Focus Areas</strong>: Pharmaceuticals, medical devices, biotech</li>
+<li><strong>Market Cap</strong>: Mixed market cap exposure</li>
+<li><strong>Geographic</strong>: Global healthcare markets</li>
+</ul>
+<h4 id="diversified">Diversified<a class="headerlink" href="#diversified" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Global Diversified</strong>: Multi-sector exposure</li>
+<li><strong>Focus Areas</strong>: All major sectors</li>
+<li><strong>Market Cap</strong>: Balanced market cap exposure</li>
+<li><strong>Geographic</strong>: Global diversification</li>
+</ul>
+<hr />
+<h2 id="how-index-funds-work">How Index Funds Work<a class="headerlink" href="#how-index-funds-work" title="Permanent link">&para;</a></h2>
+<h3 id="fund-structure">Fund Structure<a class="headerlink" href="#fund-structure" title="Permanent link">&para;</a></h3>
+<h4 id="tokenization-process">Tokenization Process<a class="headerlink" href="#tokenization-process" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>Fund Creation</strong>: Professional fund managers create investment strategy</li>
+<li><strong>Asset Selection</strong>: Select underlying assets based on strategy</li>
+<li><strong>Tokenization</strong>: Create ERC-20 tokens representing fund shares</li>
+<li><strong>Distribution</strong>: Distribute tokens to investors</li>
+<li><strong>Management</strong>: Ongoing fund management and rebalancing</li>
+</ol>
+<h4 id="token-economics">Token Economics<a class="headerlink" href="#token-economics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Token Supply</strong>: Fixed supply of fund tokens</li>
+<li><strong>Token Price</strong>: Based on net asset value (NAV)</li>
+<li><strong>Trading</strong>: Tradeable on secondary markets</li>
+<li><strong>Redemption</strong>: Redeemable for underlying assets</li>
+</ul>
+<h3 id="fund-management">Fund Management<a class="headerlink" href="#fund-management" title="Permanent link">&para;</a></h3>
+<h4 id="professional-management">Professional Management<a class="headerlink" href="#professional-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Fund Managers</strong>: Experienced investment professionals</li>
+<li><strong>Investment Strategy</strong>: Clear investment objectives</li>
+<li><strong>Risk Management</strong>: Professional risk management</li>
+<li><strong>Performance Monitoring</strong>: Regular performance evaluation</li>
+</ul>
+<h4 id="rebalancing">Rebalancing<a class="headerlink" href="#rebalancing" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Regular Rebalancing</strong>: Maintain target allocations</li>
+<li><strong>Market Adjustments</strong>: Adjust for market conditions</li>
+<li><strong>Performance Optimization</strong>: Optimize for performance</li>
+<li><strong>Risk Management</strong>: Manage portfolio risk</li>
+</ul>
+<hr />
+<h2 id="investment-process">Investment Process<a class="headerlink" href="#investment-process" title="Permanent link">&para;</a></h2>
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<p>Before investing in index funds, ensure you have:</p>
+<ul>
+<li>✅ <strong>Connected Wallet</strong>: Active wallet connection</li>
+<li>✅ <strong>KYC Verified</strong>: Completed identity verification</li>
+<li>✅ <strong>OnchainID Created</strong>: Decentralized identity set up</li>
+<li>✅ <strong>USDC Balance</strong>: Sufficient USDC for investment</li>
+</ul>
+<h3 id="investment-steps">Investment Steps<a class="headerlink" href="#investment-steps" title="Permanent link">&para;</a></h3>
+<h4 id="1-browse-funds">1. Browse Funds<a class="headerlink" href="#1-browse-funds" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Fund Listings</strong>: View available index funds</li>
+<li><strong>Performance Data</strong>: Review historical performance</li>
+<li><strong>Risk Assessment</strong>: Understand risk levels</li>
+<li><strong>Fee Structure</strong>: Review management fees</li>
+</ul>
+<h4 id="2-select-fund">2. Select Fund<a class="headerlink" href="#2-select-fund" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Fund Details</strong>: Review fund information</li>
+<li><strong>Investment Strategy</strong>: Understand investment approach</li>
+<li><strong>Risk Profile</strong>: Assess risk-return profile</li>
+<li><strong>Minimum Investment</strong>: Check minimum investment requirements</li>
+</ul>
+<h4 id="3-invest">3. Invest<a class="headerlink" href="#3-invest" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Amount</strong>: Specify investment amount</li>
+<li><strong>Review</strong>: Review investment details</li>
+<li><strong>Approve</strong>: Approve USDC spending</li>
+<li><strong>Confirm</strong>: Confirm investment transaction</li>
+</ul>
+<h4 id="4-monitor">4. Monitor<a class="headerlink" href="#4-monitor" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Portfolio</strong>: Track your investment</li>
+<li><strong>Performance</strong>: Monitor fund performance</li>
+<li><strong>Distributions</strong>: Receive dividend distributions</li>
+<li><strong>Rebalancing</strong>: Track fund rebalancing</li>
+</ul>
+<hr />
+<h2 id="fund-performance">Fund Performance<a class="headerlink" href="#fund-performance" title="Permanent link">&para;</a></h2>
+<h3 id="performance-metrics">Performance Metrics<a class="headerlink" href="#performance-metrics" title="Permanent link">&para;</a></h3>
+<h4 id="returns">Returns<a class="headerlink" href="#returns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>APY</strong>: Annual percentage yield</li>
+<li><strong>Total Return</strong>: Cumulative returns</li>
+<li><strong>Dividend Yield</strong>: Regular dividend payments</li>
+<li><strong>Capital Appreciation</strong>: Price appreciation</li>
+</ul>
+<h4 id="risk-metrics">Risk Metrics<a class="headerlink" href="#risk-metrics" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Volatility</strong>: Price volatility measures</li>
+<li><strong>Sharpe Ratio</strong>: Risk-adjusted returns</li>
+<li><strong>Maximum Drawdown</strong>: Maximum loss from peak</li>
+<li><strong>Beta</strong>: Market correlation</li>
+</ul>
+<h4 id="fees">Fees<a class="headerlink" href="#fees" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Management Fee</strong>: Annual management fee</li>
+<li><strong>Performance Fee</strong>: Performance-based fees</li>
+<li><strong>Trading Costs</strong>: Transaction costs</li>
+<li><strong>Total Expense Ratio</strong>: Total cost of ownership</li>
+</ul>
+<h3 id="historical-performance">Historical Performance<a class="headerlink" href="#historical-performance" title="Permanent link">&para;</a></h3>
+<h4 id="tech-growth-index_1">Tech Growth Index<a class="headerlink" href="#tech-growth-index_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>1 Year Return</strong>: 15.2%</li>
+<li><strong>3 Year Return</strong>: 45.8%</li>
+<li><strong>Volatility</strong>: 28.5%</li>
+<li><strong>Sharpe Ratio</strong>: 1.2</li>
+</ul>
+<h4 id="clean-energy-future_1">Clean Energy Future<a class="headerlink" href="#clean-energy-future_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>1 Year Return</strong>: 12.8%</li>
+<li><strong>3 Year Return</strong>: 38.4%</li>
+<li><strong>Volatility</strong>: 24.2%</li>
+<li><strong>Sharpe Ratio</strong>: 1.1</li>
+</ul>
+<h4 id="financial-services-plus_1">Financial Services Plus<a class="headerlink" href="#financial-services-plus_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>1 Year Return</strong>: 8.9%</li>
+<li><strong>3 Year Return</strong>: 28.7%</li>
+<li><strong>Volatility</strong>: 18.3%</li>
+<li><strong>Sharpe Ratio</strong>: 0.9</li>
+</ul>
+<h4 id="healthcare-innovation_1">Healthcare Innovation<a class="headerlink" href="#healthcare-innovation_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>1 Year Return</strong>: 7.2%</li>
+<li><strong>3 Year Return</strong>: 25.4%</li>
+<li><strong>Volatility</strong>: 16.8%</li>
+<li><strong>Sharpe Ratio</strong>: 0.8</li>
+</ul>
+<h4 id="global-diversified_1">Global Diversified<a class="headerlink" href="#global-diversified_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>1 Year Return</strong>: 6.1%</li>
+<li><strong>3 Year Return</strong>: 19.8%</li>
+<li><strong>Volatility</strong>: 12.4%</li>
+<li><strong>Sharpe Ratio</strong>: 0.7</li>
+</ul>
+<hr />
+<h2 id="risk-management">Risk Management<a class="headerlink" href="#risk-management" title="Permanent link">&para;</a></h2>
+<h3 id="risk-factors">Risk Factors<a class="headerlink" href="#risk-factors" title="Permanent link">&para;</a></h3>
+<h4 id="market-risk">Market Risk<a class="headerlink" href="#market-risk" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Market Volatility</strong>: General market fluctuations</li>
+<li><strong>Sector Risk</strong>: Sector-specific risks</li>
+<li><strong>Geographic Risk</strong>: Regional economic risks</li>
+<li><strong>Currency Risk</strong>: Foreign exchange risks</li>
+</ul>
+<h4 id="fund-risk">Fund Risk<a class="headerlink" href="#fund-risk" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Management Risk</strong>: Fund manager performance</li>
+<li><strong>Liquidity Risk</strong>: Ability to sell fund shares</li>
+<li><strong>Concentration Risk</strong>: Over-concentration in specific assets</li>
+<li><strong>Operational Risk</strong>: Fund operations and administration</li>
+</ul>
+<h4 id="technology-risk">Technology Risk<a class="headerlink" href="#technology-risk" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Smart Contract Risk</strong>: Smart contract vulnerabilities</li>
+<li><strong>Network Risk</strong>: Blockchain network risks</li>
+<li><strong>Custody Risk</strong>: Asset custody and security</li>
+<li><strong>Regulatory Risk</strong>: Regulatory changes</li>
+</ul>
+<h3 id="risk-mitigation">Risk Mitigation<a class="headerlink" href="#risk-mitigation" title="Permanent link">&para;</a></h3>
+<h4 id="diversification">Diversification<a class="headerlink" href="#diversification" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Asset Diversification</strong>: Spread across multiple assets</li>
+<li><strong>Sector Diversification</strong>: Exposure to multiple sectors</li>
+<li><strong>Geographic Diversification</strong>: Global market exposure</li>
+<li><strong>Time Diversification</strong>: Dollar-cost averaging</li>
+</ul>
+<h4 id="professional-management_1">Professional Management<a class="headerlink" href="#professional-management_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Expert Management</strong>: Professional fund managers</li>
+<li><strong>Risk Monitoring</strong>: Continuous risk assessment</li>
+<li><strong>Rebalancing</strong>: Regular portfolio rebalancing</li>
+<li><strong>Hedging</strong>: Risk hedging strategies</li>
+</ul>
+<hr />
+<h2 id="fees-and-costs">Fees and Costs<a class="headerlink" href="#fees-and-costs" title="Permanent link">&para;</a></h2>
+<h3 id="fee-structure">Fee Structure<a class="headerlink" href="#fee-structure" title="Permanent link">&para;</a></h3>
+<h4 id="management-fees">Management Fees<a class="headerlink" href="#management-fees" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Annual Fee</strong>: Percentage of assets under management</li>
+<li><strong>Fee Range</strong>: 0.45% - 0.85% annually</li>
+<li><strong>Fee Calculation</strong>: Based on average daily assets</li>
+<li><strong>Fee Payment</strong>: Deducted from fund assets</li>
+</ul>
+<h4 id="performance-fees">Performance Fees<a class="headerlink" href="#performance-fees" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Performance Bonus</strong>: Additional fees for outperformance</li>
+<li><strong>High Water Mark</strong>: Only charged on new highs</li>
+<li><strong>Fee Cap</strong>: Maximum performance fee limits</li>
+<li><strong>Fee Transparency</strong>: Clear fee disclosure</li>
+</ul>
+<h4 id="trading-costs">Trading Costs<a class="headerlink" href="#trading-costs" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Transaction Costs</strong>: Costs of buying/selling assets</li>
+<li><strong>Market Impact</strong>: Impact of large trades</li>
+<li><strong>Bid-Ask Spread</strong>: Spread between buy/sell prices</li>
+<li><strong>Cost Optimization</strong>: Minimize trading costs</li>
+</ul>
+<h3 id="total-cost-of-ownership">Total Cost of Ownership<a class="headerlink" href="#total-cost-of-ownership" title="Permanent link">&para;</a></h3>
+<h4 id="example-10000-investment">Example: $10,000 Investment<a class="headerlink" href="#example-10000-investment" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Management Fee</strong>: $45 - $85 annually</li>
+<li><strong>Performance Fee</strong>: $0 - $200 (if applicable)</li>
+<li><strong>Trading Costs</strong>: $10 - $30 annually</li>
+<li><strong>Total Annual Cost</strong>: $55 - $315</li>
+</ul>
+<hr />
+<h2 id="tax-considerations">Tax Considerations<a class="headerlink" href="#tax-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="tax-treatment">Tax Treatment<a class="headerlink" href="#tax-treatment" title="Permanent link">&para;</a></h3>
+<h4 id="dividend-distributions">Dividend Distributions<a class="headerlink" href="#dividend-distributions" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Ordinary Income</strong>: Dividends taxed as ordinary income</li>
+<li><strong>Tax Rate</strong>: Based on individual tax bracket</li>
+<li><strong>Reporting</strong>: 1099-DIV forms provided</li>
+<li><strong>Withholding</strong>: Tax withholding may apply</li>
+</ul>
+<h4 id="capital-gains">Capital Gains<a class="headerlink" href="#capital-gains" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Long-term Gains</strong>: Held &gt; 1 year</li>
+<li><strong>Short-term Gains</strong>: Held &lt; 1 year</li>
+<li><strong>Tax Rates</strong>: Different rates for long/short-term</li>
+<li><strong>Reporting</strong>: 1099-B forms provided</li>
+</ul>
+<h4 id="international-investors">International Investors<a class="headerlink" href="#international-investors" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Tax Treaties</strong>: International tax treaties</li>
+<li><strong>Withholding</strong>: Tax withholding requirements</li>
+<li><strong>Reporting</strong>: International reporting requirements</li>
+<li><strong>Professional Advice</strong>: Consult tax professionals</li>
+</ul>
+<hr />
+<h2 id="secondary-markets">Secondary Markets<a class="headerlink" href="#secondary-markets" title="Permanent link">&para;</a></h2>
+<h3 id="trading-fund-shares">Trading Fund Shares<a class="headerlink" href="#trading-fund-shares" title="Permanent link">&para;</a></h3>
+<h4 id="trading-platforms">Trading Platforms<a class="headerlink" href="#trading-platforms" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Decentralized Exchanges</strong>: Trade on DEXs</li>
+<li><strong>Centralized Exchanges</strong>: Trade on CEXs</li>
+<li><strong>OTC Markets</strong>: Over-the-counter trading</li>
+<li><strong>CircleX Platform</strong>: Trade on CircleX Finance</li>
+</ul>
+<h4 id="trading-features">Trading Features<a class="headerlink" href="#trading-features" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>24/7 Trading</strong>: Trade anytime, anywhere</li>
+<li><strong>Liquidity</strong>: Market liquidity for trading</li>
+<li><strong>Price Discovery</strong>: Market-based pricing</li>
+<li><strong>Settlement</strong>: Fast settlement in USDC</li>
+</ul>
+<h3 id="liquidity-considerations">Liquidity Considerations<a class="headerlink" href="#liquidity-considerations" title="Permanent link">&para;</a></h3>
+<h4 id="liquidity-factors">Liquidity Factors<a class="headerlink" href="#liquidity-factors" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Fund Size</strong>: Larger funds typically more liquid</li>
+<li><strong>Trading Volume</strong>: Higher volume = better liquidity</li>
+<li><strong>Market Conditions</strong>: Market conditions affect liquidity</li>
+<li><strong>Fund Performance</strong>: Performance affects demand</li>
+</ul>
+<h4 id="liquidity-management">Liquidity Management<a class="headerlink" href="#liquidity-management" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Liquidity Reserves</strong>: Maintain liquidity reserves</li>
+<li><strong>Redemption Policies</strong>: Clear redemption policies</li>
+<li><strong>Market Making</strong>: Provide market making services</li>
+<li><strong>Liquidity Monitoring</strong>: Monitor liquidity levels</li>
+</ul>
+<hr />
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
+<h3 id="investment-strategy">Investment Strategy<a class="headerlink" href="#investment-strategy" title="Permanent link">&para;</a></h3>
+<h4 id="diversification_1">Diversification<a class="headerlink" href="#diversification_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Don't Put All Eggs in One Basket</strong>: Diversify across funds</li>
+<li><strong>Risk Management</strong>: Balance risk and return</li>
+<li><strong>Long-term Perspective</strong>: Think long-term</li>
+<li><strong>Regular Rebalancing</strong>: Rebalance portfolio regularly</li>
+</ul>
+<h4 id="due-diligence">Due Diligence<a class="headerlink" href="#due-diligence" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Research Funds</strong>: Thoroughly research funds</li>
+<li><strong>Understand Risks</strong>: Understand all risks</li>
+<li><strong>Review Performance</strong>: Review historical performance</li>
+<li><strong>Monitor Changes</strong>: Monitor fund changes</li>
+</ul>
+<h3 id="portfolio-management">Portfolio Management<a class="headerlink" href="#portfolio-management" title="Permanent link">&para;</a></h3>
+<h4 id="asset-allocation">Asset Allocation<a class="headerlink" href="#asset-allocation" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Risk Tolerance</strong>: Match funds to risk tolerance</li>
+<li><strong>Investment Goals</strong>: Align with investment goals</li>
+<li><strong>Time Horizon</strong>: Consider investment time horizon</li>
+<li><strong>Liquidity Needs</strong>: Consider liquidity requirements</li>
+</ul>
+<h4 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Regular Review</strong>: Review portfolio regularly</li>
+<li><strong>Performance Tracking</strong>: Track performance metrics</li>
+<li><strong>Rebalancing</strong>: Rebalance when needed</li>
+<li><strong>Tax Optimization</strong>: Optimize for taxes</li>
+</ul>
+<hr />
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<h3 id="common-issues">Common Issues<a class="headerlink" href="#common-issues" title="Permanent link">&para;</a></h3>
+<h4 id="investment-failed">Investment Failed<a class="headerlink" href="#investment-failed" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Insufficient Balance</strong>: Ensure sufficient USDC</li>
+<li><strong>Gas Issues</strong>: Check gas fees and limits</li>
+<li><strong>Network Issues</strong>: Verify network connectivity</li>
+<li><strong>Retry</strong>: Attempt investment again</li>
+</ul>
+<h4 id="performance-concerns">Performance Concerns<a class="headerlink" href="#performance-concerns" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Market Conditions</strong>: Consider market conditions</li>
+<li><strong>Fund Strategy</strong>: Review fund investment strategy</li>
+<li><strong>Time Horizon</strong>: Consider investment time horizon</li>
+<li><strong>Professional Advice</strong>: Consult financial advisors</li>
+</ul>
+<h4 id="liquidity-issues">Liquidity Issues<a class="headerlink" href="#liquidity-issues" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Market Conditions</strong>: Check market conditions</li>
+<li><strong>Fund Size</strong>: Consider fund size and liquidity</li>
+<li><strong>Trading Volume</strong>: Check trading volume</li>
+<li><strong>Alternative Markets</strong>: Try different trading platforms</li>
+</ul>
+<h3 id="support-resources">Support Resources<a class="headerlink" href="#support-resources" title="Permanent link">&para;</a></h3>
+<ul>
+<li>📧 <strong>Email Support</strong>: <a href="mailto:support@circlex.finance">support@circlex.finance</a></li>
+<li>💬 <strong>Discord Community</strong>: <a href="https://discord.gg/circlexfinance">Join our Discord</a></li>
+<li>📖 <strong>Documentation</strong>: Comprehensive guides and FAQs</li>
+<li>🐦 <strong>Twitter</strong>: <a href="https://twitter.com/circlexfinance">@circlexfinance</a></li>
+</ul>
+<hr />
+<h2 id="next-steps">Next Steps<a class="headerlink" href="#next-steps" title="Permanent link">&para;</a></h2>
+<p>After understanding index funds:</p>
+<ol>
+<li><strong>Complete KYC</strong>: Ensure you're verified to invest</li>
+<li><strong>Research Funds</strong>: Research available index funds</li>
+<li><strong>Start Small</strong>: Begin with small investments</li>
+<li><strong>Diversify</strong>: Build a diversified portfolio</li>
+</ol>
+<hr />
+<p><strong>Ready to invest?</strong> <a href="https://circlefinancex.vercel.app/">Explore index funds</a> and start building your diversified portfolio!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/circlexfinance" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/nagatejakachapuram/Circle-Finance" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/circlexfinance" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "toc.integrate", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
