@@ -1,17 +1,18 @@
-# Real Estate Module – Overview
+# Tokenized Real Estate – Overview
 
-The **Real Estate Module** of Circle Pay allows users to invest in **tokenized real estate properties** using **USDC**.  
-This brings traditional real estate into Web3, enabling **fractional ownership**, **automated rent distribution**, and **maintenance fee management** — all on-chain.
+CircleX Finance enables investment in **tokenized real estate properties** using **USDC** across multiple blockchain networks.  
+This brings traditional real estate into Web3 with **compliance-first architecture**, enabling **fractional ownership**, **automated rent distribution**, and **transparent performance tracking** — all on-chain.
 
 ---
 
 ## Key Features
 
-- **Fractional Ownership**: Buy property shares as on-chain tokens.
-- **USDC-based Transactions**: All purchases, rent distributions, and fees are handled in USDC.
-- **Automated Rent Payouts**: Receive periodic rental income directly to your wallet.
-- **Maintenance Cost Handling**: Pay upkeep fees or have them auto-deducted from rental income.
-- **Full Transparency**: All transactions are verifiable on-chain.
+- **Fractional Ownership**: Buy property shares as on-chain tokens with ERC-3643 compliance.
+- **USDC-Native**: All purchases, rent distributions, and fees handled in USDC.
+- **Multi-Chain Support**: Invest across Ethereum, Base, Polygon, and Solana.
+- **Automated Rent Payouts**: Receive periodic rental income directly in USDC.
+- **Compliance-First**: KYC verification and OnchainID required for all investments.
+- **Transparent Performance**: On-chain performance tracking and audit trails.
 
 ---
 
@@ -19,28 +20,39 @@ This brings traditional real estate into Web3, enabling **fractional ownership**
 
 1. **Properties are Tokenized**
 
-   - Each property is represented as a tokenized asset (**ERC-20** for fractional shares or **ERC-721/1155** for unique ownership).
-   - Ownership is tracked on-chain.
+   - Each property is represented as a tokenized asset using **ERC-3643** compliance standard.
+   - Ownership is tracked on-chain with **OnchainID** integration.
+   - Properties are vetted and verified before tokenization.
 
-2. **Buy Shares with USDC**
+2. **KYC Verification Required**
 
-   - Investors purchase shares by transferring **USDC** to the property’s smart contract.
+   - Investors must complete **KYC verification** and create **OnchainID**.
+   - Access control ensures only verified investors can invest.
+   - All transactions are compliance-tracked and audit-ready.
 
-3. **Earn Rental Income**
+3. **Buy Shares with USDC**
+
+   - Investors purchase shares by transferring **USDC** to the property's smart contract.
+   - Cross-chain investments supported via **CCTP V2**.
+   - All transactions are transparent and verifiable on-chain.
+
+4. **Earn Rental Income**
 
    - Rent collected off-chain is converted to USDC and **distributed proportionally** to token holders.
-
-4. **Maintenance Fee Deduction**
-   - Maintenance fees are **paid by investors** or **deducted from rental income** automatically.
+   - Automated distribution via smart contracts.
+   - Real-time performance tracking and reporting.
 
 ---
 
 ## Why Tokenized Real Estate?
 
-- **Global Access** – Invest from anywhere using stablecoins.
+- **Global Access** – Invest from anywhere using USDC across multiple chains.
 - **Fractional Entry** – Enables smaller investments in premium properties.
-- **Liquidity** – Shares may be tradable on secondary markets.
-- **Automation** – Rent distribution and fee deductions handled by smart contracts.
+- **Compliance-First** – Regulatory-compliant with audit-ready records.
+- **Multi-Chain** – Invest across Ethereum, Base, Polygon, and Solana.
+- **Transparency** – All transactions and performance tracked on-chain.
+- **Automation** – Rent distribution handled by smart contracts.
+- **Professional Management** – Vetted properties with professional management.
 
 ---
 

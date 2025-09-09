@@ -1,9 +1,9 @@
-site_name: Circle Pay Dapp Documentation
-site_url: https://docs.circlepay.com/
-site_description: Comprehensive documentation for Circle Pay – an autonomous payment and treasury management platform with USDC-based real estate investments.
+site_name: CircleX Finance Documentation
+site_url: https://docs.circlex.finance/
+site_description: Comprehensive documentation for CircleX Finance – a USDC-native platform for tokenized real estate investing with CCTP V2 support and compliance-first architecture.
 
-repo_url: https://github.com/your-org/circle-pay
-repo_name: Circle Pay on GitHub
+repo_url: https://github.com/nagatejakachapuram/CircleFinanceX-Docs
+repo_name: CircleX Finance Docs on GitHub
 edit_uri: edit/main/docs/
 
 theme:
@@ -37,14 +37,30 @@ theme:
 
 nav:
   - Home: index.md
-  - Real Estate Module:
-      - Overview: real_estate/overview.md
-      - Buying Shares: real_estate/buying_shares.md
-      - Rental Income: real_estate/rental_income.md
-      - Maintenance Fees: real_estate/maintenance_fees.md
-  - USDC Payments:
-      - On-Chain Integration: usdc/onchain.md
-      - Circle API & Off-Chain: usdc/offchain.md
+  - Getting Started:
+      - Quick Start: getting_started/quick_start.md
+      - KYC & OnchainID: getting_started/kyc_onchainid.md
+      - Wallet Connection: getting_started/wallet_connection.md
+  - Core Features:
+      - CCTP V2 Bridge: features/cctp_bridge.md
+      - Multi-Chain Support: features/multi_chain.md
+      - Compliance & Security: features/compliance.md
+  - Investment Products:
+      - Tokenized Real Estate: real_estate/overview.md
+      - Index Funds: investment_products/index_funds.md
+      - US Treasuries: investment_products/treasuries.md
+  - Portfolio Management:
+      - Portfolio Overview: portfolio/overview.md
+      - Performance Tracking: portfolio/performance.md
+      - Transaction History: portfolio/transactions.md
+  - Technical Integration:
+      - USDC Integration: usdc/onchain.md
+      - API Reference: technical/api_reference.md
+      - Smart Contracts: technical/smart_contracts.md
+  - Compliance:
+      - ERC-3643 Standard: compliance/erc3643.md
+      - KYC Requirements: compliance/kyc_requirements.md
+      - Audit Reports: compliance/audit_reports.md
 
 plugins:
   - search
@@ -68,6 +84,8 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/circlepay
+      link: https://twitter.com/circlexfinance
     - icon: fontawesome/brands/github
-      link: https://github.com/your-org/circle-pay
+      link: https://github.com/nagatejakachapuram/Circle-Finance
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/circlexfinance
